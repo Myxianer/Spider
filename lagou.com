@@ -39,7 +39,6 @@ class LagouSpider(object):
             time.sleep(1)
 
     def request_detail_page(self,url):
-        print(000)
         self.driver.get(url)
         self.driver.execute_script("window.open('%s')" % url)
         self.driver.switch_to.window(self.driver.window_handles[2])
@@ -51,9 +50,7 @@ class LagouSpider(object):
         #关闭当前详情页
         self.driver.close()
         #切换回职位列表页
-        print(1111)
         self.driver.switch_to.window(self.driver.window_handles[0])
-        print(2222)
 
     def parse_detail_page(self,source):
         html = etree.HTML(source)
