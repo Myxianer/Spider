@@ -33,7 +33,7 @@ itchat==1.2.32
 itsdangerous==1.1.0
 javascripthon==0.10
 jieba==0.39
-Jinja2==2.10.3
+Jinja2==2.11.3
 jupyter-echarts-pypkg==0.1.2
 kaitaistruct==0.8
 kiwisolver==1.1.0
