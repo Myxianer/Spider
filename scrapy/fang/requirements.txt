@@ -81,7 +81,7 @@ pytesseract==0.2.6
 python-dateutil==2.8.0
 python-dotenv==0.10.3
 pywin32==224
-PyYAML==5.1.1
+PyYAML==5.4
 query-string==2019.4.13
 queuelib==1.5.0
 readme-renderer==24.0
