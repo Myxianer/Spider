@@ -90,7 +90,7 @@ request==2019.4.13
 requests==2.20.1
 requests-toolbelt==0.9.1
 ruamel.yaml==0.15.100
-Scrapy==1.6.0
+Scrapy==1.8.1
 scrapy-redis==0.6.8
 selenium==4.0.0a3
 service-identity==18.1.0
